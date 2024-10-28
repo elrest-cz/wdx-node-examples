@@ -13,7 +13,7 @@ WDX NodeRED Pallette Examples for various WDX IoT features.
 ## Requirements
 
 + Node-RED editor.
-+ Node-RED WDX Pallete.
++ Node-RED WDX Palette.
 
 ## Installation
 
@@ -33,7 +33,7 @@ WDX IoT instance pallete nodes will connect data from any WDX supported device i
 
 #### Save Example
 
-![image info](./assets/images/wdx-instance-save.png)
+![WDX - Instance Save Node Usage](./assets/images/wdx-instance-save.png)
 
 
 #### Monitor Example
