@@ -7,8 +7,8 @@ WDX NodeRED Pallette Examples for various WDX IoT features.
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Examples](#examples)
-  - [WDX Instance - Nodes Examples](#wdx-instance-nodes-examples)
-  - [WDX Data - Nodes Examples](#wdx-data-nodes-examples)
+  - [WDX Instance Pallete Examples](#wdx-instance-palette-examples)
+  - [WDX Data Pallete Examples](#wdx-data-palette-examples)
 
 ## Requirements
 
@@ -27,7 +27,7 @@ To install the WDX NodeRED pallette, follow these steps:
 ## Examples
 
 
-### WDX Instance - Nodes Examples
+### WDX Instance Palette Examples
 
 WDX IoT instance pallete nodes will connect data from any WDX supported device into data layer. You can  manage these connection within Node-RED WDX Instance pallete nodes.
 
@@ -72,7 +72,7 @@ WDX IoT instance pallete nodes will connect data from any WDX supported device i
 
 ![WDX - Instance Delete Node Usage](./assets/images/wdx-instance-delete.png)
 
-### WDX Data - Nodes Examples
+### WDX Data Palette Examples
 
 WDX IoT data pallette nodes allows you to manage these IoT data schemas provided within one Data interface on different IoT devices.
 
