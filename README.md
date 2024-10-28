@@ -7,6 +7,8 @@ WDX NodeRED Pallette Examples for various WDX IoT features.
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Examples](#examples)
+  - [WDX Instance - Nodes Examples](#wdx-instance-nodes-examples)
+  - [WDX Data - Nodes Examples](#wdx-data-nodes-examples)
 
 ## Requirements
 
