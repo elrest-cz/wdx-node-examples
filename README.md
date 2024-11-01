@@ -7,11 +7,12 @@ WDX NodeRED Pallette Examples for various WDX IoT features.
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Examples](#examples)
-  - [WDX Instance Pallete Examples](#wdx-instance-palette-examples)
-  - [WDX Data Pallete Examples](#wdx-data-palette-examples)
+  - [WDX Instance Palette Examples](#wdx-instance-palette-examples)
+  - [WDX Data Palette Examples](#wdx-data-palette-examples)
 
 ## Requirements
 
++ WDX Runtime - Docker or local WDX runtime installation.
 + Node-RED editor.
 + Node-RED WDX Palette.
 
