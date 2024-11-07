@@ -1,11 +1,547 @@
 [
     {
+        "id": "1227002d3fc17664",
+        "type": "tab",
+        "label": "WDX Example - Instances",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "68d54b1d6b382a77",
+        "type": "tab",
+        "label": "WDX Example - Data",
+        "disabled": false,
+        "info": "# WDX Example - Data Flows\n"
+    },
+    {
+        "id": "f672de24d745bfec",
+        "type": "tab",
+        "label": "WDX Example - Alarms",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "25cd250a657945d4",
         "type": "tab",
         "label": "WDX Example - Trends",
         "disabled": false,
         "info": "# WDX Example - Trends",
         "env": []
+    },
+    {
+        "id": "112f5683c1f72e34",
+        "type": "group",
+        "z": "f672de24d745bfec",
+        "name": "WDX - Examples - Alarms - Delete",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3cabd0822f97a181",
+            "53d45c8da45dd8bf",
+            "ac8c53144f06d5a5",
+            "1715d34f4c55e6bc"
+        ],
+        "x": 54,
+        "y": 2739,
+        "w": 1012,
+        "h": 162
+    },
+    {
+        "id": "9d9f3cce06c40237",
+        "type": "group",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - Detail",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "52db45a07881ab0d",
+            "8ba2a53e15fa820a",
+            "fb5d6f671c4e9c33",
+            "37eb42f96e29632f"
+        ],
+        "x": 44,
+        "y": 2439,
+        "w": 1002,
+        "h": 162
+    },
+    {
+        "id": "483cdaf6d9c84b2a",
+        "type": "group",
+        "z": "68d54b1d6b382a77",
+        "name": "WDX Example - Data - Set Schema",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "88631c8b6f438b3d",
+            "9c029746518c2d21",
+            "af1e6d1fe3882882",
+            "23d0bd78cc9b08c8"
+        ],
+        "x": 34,
+        "y": 659,
+        "w": 1132,
+        "h": 162
+    },
+    {
+        "id": "dd043ba45307c8bc",
+        "type": "group",
+        "z": "68d54b1d6b382a77",
+        "name": "WDX Example - Data -  Get Schema",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "749358639911e684",
+            "1a2113791069c228",
+            "1dd1dd096cc44b04",
+            "daf06cd4401541d9"
+        ],
+        "x": 34,
+        "y": 939,
+        "w": 1132,
+        "h": 162
+    },
+    {
+        "id": "f88ee9bf86931b19",
+        "type": "group",
+        "z": "68d54b1d6b382a77",
+        "name": "WDX Example - Data - Monitor Value",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1983f2e6989df38a",
+            "d8751b5f06164815",
+            "a802c4b85126d417",
+            "6e5fba5568bdcdcd",
+            "270c26938cba17c2",
+            "08d527c1b15fec9a",
+            "baf33fb48f36b23a",
+            "b8931454a9a799a3",
+            "c1ebf9c07290cd72",
+            "3109e6742a903269",
+            "f9bda9f8741349ed"
+        ],
+        "x": 34,
+        "y": 1219,
+        "w": 1392,
+        "h": 362
+    },
+    {
+        "id": "c91d12bc9a2278da",
+        "type": "group",
+        "z": "68d54b1d6b382a77",
+        "name": "WDX Example - Data  - Schema Monitor",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6aa031323270d907",
+            "37b2ada595dcd942",
+            "90395eabaaa89d10",
+            "a42c0f0ade7b924b",
+            "9215de98b0382cd6",
+            "fdc09c297a35b2db",
+            "507e4a1ce1fabfaf",
+            "1a4d956d27eaf7f5",
+            "82bf14f8d45731a4",
+            "c4966ead96a14b75",
+            "6af56d72537f01a1"
+        ],
+        "x": 34,
+        "y": 179,
+        "w": 1372,
+        "h": 362
+    },
+    {
+        "id": "79e0992dd9874e19",
+        "type": "group",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances  - Monitor",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ee768f451dc5d4fc",
+            "d9dd3bae630bd603",
+            "df19ee9df14d4bef",
+            "161e5c6a2869c29d",
+            "3df4dfb87ad2de1e",
+            "b4dfe1ac1751f171",
+            "f5fce07b9a8a3033",
+            "e328e9f17c646d04",
+            "cb3b1ce79e0d504c",
+            "9b4aab21a9c35edc",
+            "a9cd2a0b72383810"
+        ],
+        "x": 34,
+        "y": 179,
+        "w": 1312,
+        "h": 362
+    },
+    {
+        "id": "1a3ac7dde82ee6d8",
+        "type": "group",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - Save",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "50751431d7511089",
+            "caf604e5f51a73f9",
+            "e271c178290df0f6",
+            "4fe9a4b27f71e4b3",
+            "32c00a0692d361d9",
+            "70079bcee3446c54"
+        ],
+        "x": 34,
+        "y": 679,
+        "w": 1332,
+        "h": 242
+    },
+    {
+        "id": "16a04210f2ab9917",
+        "type": "group",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - List",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "981c98527ccd4616",
+            "f45cb44f51cddf31",
+            "4e782f862f8c2c01",
+            "5308b9f1af069c56",
+            "c32d827f43a331a1",
+            "25456a42a7acbd29"
+        ],
+        "x": 34,
+        "y": 1059,
+        "w": 1312,
+        "h": 242
+    },
+    {
+        "id": "71b18b38521cb2cf",
+        "type": "group",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instance Log",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ccdd3ce2c5924dfc",
+            "9bcb23b9606c7c3f",
+            "af4c762ae3084bfb",
+            "09c81a3ff9df186f",
+            "6979c3daa7aa02bb",
+            "0d8352b572f3dfdf",
+            "4e9bc2cea64c93fc",
+            "8dc6ef1d21b7a0f1",
+            "d240aadbcebcde1d",
+            "da55e669603bd127",
+            "2f3a57f8c40e8dfb"
+        ],
+        "x": 34,
+        "y": 1439,
+        "w": 1292,
+        "h": 362
+    },
+    {
+        "id": "ac1eef12b3e08136",
+        "type": "group",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - Delete",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c0313ea8952a1a6b",
+            "46072db786dafdc0",
+            "299c54710a014212",
+            "7d1b8a2a088e9242",
+            "7b702f15070cf310",
+            "76b092d9c11ee3f6"
+        ],
+        "x": 34,
+        "y": 3479,
+        "w": 1352,
+        "h": 242
+    },
+    {
+        "id": "709a64cd613f92aa",
+        "type": "group",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instance - Restart",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "444f5899235a1cc9",
+            "c6ab5ffa61712e24",
+            "35c8d71eb50c4e34",
+            "f85c054ac238b10b",
+            "2e21db9c98c0bc34",
+            "f9fdf1a0aaafc4cd"
+        ],
+        "x": 34,
+        "y": 3099,
+        "w": 1352,
+        "h": 242
+    },
+    {
+        "id": "27fac8ad5c7bdfaf",
+        "type": "group",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - Stop",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3270ae38cfa83e32",
+            "83d2f89cb3afb24b",
+            "7bc8adc3741bf9d6",
+            "58f7f7659b6feea7",
+            "cf95db8b7ff937c0",
+            "0f4d66561e4384a9"
+        ],
+        "x": 34,
+        "y": 2719,
+        "w": 1332,
+        "h": 242
+    },
+    {
+        "id": "c94f912fd1c89e0c",
+        "type": "group",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - Start",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7ec80c5dce9532cc",
+            "b0b6deb8c4a19ecf",
+            "71b04eb11d685891",
+            "df56d7ce795a6998",
+            "5db4f403c217f4e3",
+            "97361046a22d02ac",
+            "9c519c9712838159",
+            "9e3b99b8fe86f6fa",
+            "c84a487167028096"
+        ],
+        "x": 34,
+        "y": 2339,
+        "w": 1332,
+        "h": 242
+    },
+    {
+        "id": "b7f69d4b605e6b87",
+        "type": "group",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - Detail",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6f23cc02ad162042",
+            "295a7cf30a7f91f9",
+            "2cb15ded04c4e4fc",
+            "ec934f8cfc538bfe",
+            "7e71196fa357997b",
+            "3d6d4b013873127a"
+        ],
+        "x": 34,
+        "y": 1959,
+        "w": 1332,
+        "h": 242
+    },
+    {
+        "id": "628e29bd1193ba6b",
+        "type": "group",
+        "z": "68d54b1d6b382a77",
+        "name": "WDX Example - Data - Set Value",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3c527bff5fed29f7",
+            "599af3491c3d3519",
+            "5e40d8a7043ba43e",
+            "568d9efb74888253"
+        ],
+        "x": 34,
+        "y": 2019,
+        "w": 1132,
+        "h": 162
+    },
+    {
+        "id": "cb85dadb81ab72e3",
+        "type": "group",
+        "z": "68d54b1d6b382a77",
+        "name": "WDX Example - Data  - Get Value",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4da49816694f2694",
+            "8f13b02a26d26bfa",
+            "f04d2a6b52a869fc",
+            "52f39c32f7760323"
+        ],
+        "x": 34,
+        "y": 1719,
+        "w": 1132,
+        "h": 162
+    },
+    {
+        "id": "b232e291242c1cf9",
+        "type": "group",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - Monitor",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ceedfbee29f3c69d",
+            "a79393e1401bcc31",
+            "9e6790908a4ad555",
+            "0210afcb03accbcf",
+            "0240682e6fe3a07a",
+            "8caf9dc708b45fe7",
+            "2ea602fb779cc8dc",
+            "b8291ecabacfbc50",
+            "ec9816db9b664156",
+            "db7d8a5588ed120b",
+            "ab6e799e468e0619"
+        ],
+        "x": 34,
+        "y": 159,
+        "w": 1292,
+        "h": 322
+    },
+    {
+        "id": "563cd348efcd18dd",
+        "type": "group",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - Save",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1157465cfe179f83",
+            "57667e20c524c913",
+            "74940f21241a47de",
+            "11a83408d811ae3b"
+        ],
+        "x": 34,
+        "y": 619,
+        "w": 1012,
+        "h": 162
+    },
+    {
+        "id": "b0211bd3ca6210cb",
+        "type": "group",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - List",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d3ed26faeefc570d",
+            "a08d70baff4c566d",
+            "f1414bc871bcab3b",
+            "7f7d968315d50c85"
+        ],
+        "x": 34,
+        "y": 919,
+        "w": 1012,
+        "h": 162
+    },
+    {
+        "id": "1662c27ba144f3b4",
+        "type": "group",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - List Active",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5982f544452c3ad1",
+            "0de151deb969d6f7",
+            "4123bc7a24563cc0",
+            "6d0a6d04f946c131"
+        ],
+        "x": 34,
+        "y": 1219,
+        "w": 1012,
+        "h": 162
+    },
+    {
+        "id": "2d513a872902240d",
+        "type": "group",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - List History",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1195d66b3135d0c9",
+            "b1a3c73c2b8a585d",
+            "cfa747d92f72a1b6",
+            "4ab321c7d3f2f265"
+        ],
+        "x": 34,
+        "y": 1519,
+        "w": 1012,
+        "h": 162
+    },
+    {
+        "id": "335274b494266064",
+        "type": "group",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - Confirm",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0635a1d43187f33f",
+            "a8b328a111b4c44a",
+            "798be9f596e725d4",
+            "c37cb2c4043fa3ee"
+        ],
+        "x": 34,
+        "y": 1819,
+        "w": 1012,
+        "h": 162
+    },
+    {
+        "id": "7797a3fb812dba08",
+        "type": "group",
+        "z": "f672de24d745bfec",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "43c57a7281301189",
+            "1d0e10be606eaada",
+            "fb15107ae8c76d81",
+            "17bee98b32548edb"
+        ],
+        "x": 34,
+        "y": 2139,
+        "w": 1012,
+        "h": 162
     },
     {
         "id": "8ff26838dcd98fe5",
@@ -165,6 +701,3011 @@
         "y": 2179,
         "w": 1012,
         "h": 162
+    },
+    {
+        "id": "3949037aa7f8a94a",
+        "type": "wago.wdx.web-socket",
+        "url": "ws://localhost:82"
+    },
+    {
+        "id": "6fd8cef78fb1fe41",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances",
+        "info": "# WDX Example - Instances",
+        "x": 150,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "981c98527ccd4616",
+        "type": "inject",
+        "z": "1227002d3fc17664",
+        "g": "16a04210f2ab9917",
+        "name": "WDX Example - Instance List Request",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 1200,
+        "wires": [
+            [
+                "25456a42a7acbd29"
+            ]
+        ]
+    },
+    {
+        "id": "7ec80c5dce9532cc",
+        "type": "inject",
+        "z": "1227002d3fc17664",
+        "g": "c94f912fd1c89e0c",
+        "name": "WDX Example - Instances - Start Request",
+        "props": [
+            {
+                "p": "instanceUUID",
+                "v": "b8ed912d-db48-4165-937c-6e7e039fedc9",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 240,
+        "y": 2420,
+        "wires": [
+            [
+                "c84a487167028096"
+            ]
+        ]
+    },
+    {
+        "id": "f45cb44f51cddf31",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "16a04210f2ab9917",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "4e782f862f8c2c01",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "16a04210f2ab9917",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "b0b6deb8c4a19ecf",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "c94f912fd1c89e0c",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "71b04eb11d685891",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "c94f912fd1c89e0c",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 2540,
+        "wires": []
+    },
+    {
+        "id": "3270ae38cfa83e32",
+        "type": "inject",
+        "z": "1227002d3fc17664",
+        "g": "27fac8ad5c7bdfaf",
+        "name": "WDX Example - Instances  - Stop Request",
+        "props": [
+            {
+                "p": "instanceUUID",
+                "v": "b8ed912d-db48-4165-937c-6e7e039fedc9",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 240,
+        "y": 2860,
+        "wires": [
+            [
+                "0f4d66561e4384a9"
+            ]
+        ]
+    },
+    {
+        "id": "83d2f89cb3afb24b",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "27fac8ad5c7bdfaf",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 2800,
+        "wires": []
+    },
+    {
+        "id": "7bc8adc3741bf9d6",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "27fac8ad5c7bdfaf",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 2920,
+        "wires": []
+    },
+    {
+        "id": "444f5899235a1cc9",
+        "type": "inject",
+        "z": "1227002d3fc17664",
+        "g": "709a64cd613f92aa",
+        "name": "WDX Example - Instance Restart Request",
+        "props": [
+            {
+                "p": "instanceUUID",
+                "v": "b8ed912d-db48-4165-937c-6e7e039fedc9",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 240,
+        "y": 3240,
+        "wires": [
+            [
+                "f9fdf1a0aaafc4cd"
+            ]
+        ]
+    },
+    {
+        "id": "c6ab5ffa61712e24",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "709a64cd613f92aa",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 3180,
+        "wires": []
+    },
+    {
+        "id": "35c8d71eb50c4e34",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "709a64cd613f92aa",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 3300,
+        "wires": []
+    },
+    {
+        "id": "c0313ea8952a1a6b",
+        "type": "inject",
+        "z": "1227002d3fc17664",
+        "g": "ac1eef12b3e08136",
+        "name": "WDX Example - Instances -  Delete Request",
+        "props": [
+            {
+                "p": "instanceUUID",
+                "v": "b8ed912d-db48-4165-937c-6e7e039fedc9",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 250,
+        "y": 3620,
+        "wires": [
+            [
+                "76b092d9c11ee3f6"
+            ]
+        ]
+    },
+    {
+        "id": "46072db786dafdc0",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "ac1eef12b3e08136",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 3560,
+        "wires": []
+    },
+    {
+        "id": "299c54710a014212",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "ac1eef12b3e08136",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 3680,
+        "wires": []
+    },
+    {
+        "id": "6f23cc02ad162042",
+        "type": "inject",
+        "z": "1227002d3fc17664",
+        "g": "b7f69d4b605e6b87",
+        "name": "WDX Example - Instance Detail Request",
+        "props": [
+            {
+                "p": "instanceUUID",
+                "v": "b8ed912d-db48-4165-937c-6e7e039fedc9",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 240,
+        "y": 2100,
+        "wires": [
+            [
+                "3d6d4b013873127a"
+            ]
+        ]
+    },
+    {
+        "id": "295a7cf30a7f91f9",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "b7f69d4b605e6b87",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "2cb15ded04c4e4fc",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "b7f69d4b605e6b87",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "50751431d7511089",
+        "type": "inject",
+        "z": "1227002d3fc17664",
+        "g": "1a3ac7dde82ee6d8",
+        "name": "WDX Example - Instances - Save Request",
+        "props": [
+            {
+                "p": "instance",
+                "v": "{\"name\":\"virtual-store\",\"executionOptions\":{\"mode\":\"worker\",\"script\":\"./node_modules/.bin/wdx-virtual\"},\"uuid\":\"b8ed912d-db48-4165-937c-6e7e039fedc9\",\"code\":\"Virtual\",\"dataSourceOptions\":{\"name\":\"default\"},\"namespace\":\"Virtual\",\"logOptions\":{\"level\":\"debug\",\"mergeLog\":true,\"mergeLogFile\":\"./logs/b8ed912d-db48-4165-937c-6e7e039fedc9.log\"},\"executionOption\":{\"mode\":\"worker\"}}",
+                "vt": "json"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 240,
+        "y": 820,
+        "wires": [
+            [
+                "70079bcee3446c54"
+            ]
+        ]
+    },
+    {
+        "id": "caf604e5f51a73f9",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "1a3ac7dde82ee6d8",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "e271c178290df0f6",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "1a3ac7dde82ee6d8",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "ee768f451dc5d4fc",
+        "type": "inject",
+        "z": "1227002d3fc17664",
+        "g": "79e0992dd9874e19",
+        "name": "WDX Example - Subscribe Monitor Request",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "subscribe",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 260,
+        "wires": [
+            [
+                "a9cd2a0b72383810"
+            ]
+        ]
+    },
+    {
+        "id": "d9dd3bae630bd603",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "79e0992dd9874e19",
+        "name": "WDX Example - Instances  - Subscribe Monitor",
+        "info": "# WDX Example - Instances  - Subscribe Monitor",
+        "x": 230,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "df19ee9df14d4bef",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "79e0992dd9874e19",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "161e5c6a2869c29d",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "79e0992dd9874e19",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "3df4dfb87ad2de1e",
+        "type": "inject",
+        "z": "1227002d3fc17664",
+        "g": "79e0992dd9874e19",
+        "name": "WDX Example - Unsubscribe Monitor Request",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "subscribe",
+                "v": "false",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 500,
+        "wires": [
+            [
+                "a9cd2a0b72383810"
+            ]
+        ]
+    },
+    {
+        "id": "b4dfe1ac1751f171",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "79e0992dd9874e19",
+        "name": "WDX Example - Instances - Unsubscribe Monitor",
+        "info": "# WDX Example - Instances - Unsubscribe Monitor",
+        "x": 240,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "f5fce07b9a8a3033",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "79e0992dd9874e19",
+        "name": "Completed",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "ccdd3ce2c5924dfc",
+        "type": "inject",
+        "z": "1227002d3fc17664",
+        "g": "71b18b38521cb2cf",
+        "name": "WDX Example - Subscribe Monitor Log Request",
+        "props": [
+            {
+                "p": "instanceUUID",
+                "v": "b8ed912d-db48-4165-937c-6e7e039fedc9",
+                "vt": "str"
+            },
+            {
+                "p": "subscribe",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 260,
+        "y": 1520,
+        "wires": [
+            [
+                "2f3a57f8c40e8dfb"
+            ]
+        ]
+    },
+    {
+        "id": "9bcb23b9606c7c3f",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "71b18b38521cb2cf",
+        "name": "WDX Example - Subscribe Instance Log",
+        "info": "# WDX Example - Subscribe Instance Log",
+        "x": 210,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "af4c762ae3084bfb",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "71b18b38521cb2cf",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "09c81a3ff9df186f",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "71b18b38521cb2cf",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "6979c3daa7aa02bb",
+        "type": "inject",
+        "z": "1227002d3fc17664",
+        "g": "71b18b38521cb2cf",
+        "name": "WDX Example - Unsubscribe Monitor Log Request",
+        "props": [
+            {
+                "p": "instanceUUID",
+                "v": "b8ed912d-db48-4165-937c-6e7e039fedc9",
+                "vt": "str"
+            },
+            {
+                "p": "suvbscribe",
+                "v": "false",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 270,
+        "y": 1760,
+        "wires": [
+            [
+                "2f3a57f8c40e8dfb"
+            ]
+        ]
+    },
+    {
+        "id": "0d8352b572f3dfdf",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "71b18b38521cb2cf",
+        "name": "WDX Example - Unsubscribe Instance Log",
+        "info": "# WDX Example - Unsubscribe Instance Log",
+        "x": 220,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "e328e9f17c646d04",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "79e0992dd9874e19",
+        "name": "WDX Example - Instance Monitor Message",
+        "info": "# WDX Example - Instance Monitor Message",
+        "x": 1080,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "cb3b1ce79e0d504c",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "79e0992dd9874e19",
+        "name": "WDX Example - Instance Monitor Unsubscribe Message",
+        "info": "# WDX Example - Instance Monitor Unsubscribe Message",
+        "x": 1120,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "9b4aab21a9c35edc",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "79e0992dd9874e19",
+        "name": "WDX Example - Instance Monitor Error Message",
+        "info": "# WDX Example - Instance Monitor Error Message",
+        "x": 1100,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "4e9bc2cea64c93fc",
+        "type": "debug",
+        "z": "1227002d3fc17664",
+        "g": "71b18b38521cb2cf",
+        "name": "Complete",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "4fe9a4b27f71e4b3",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "1a3ac7dde82ee6d8",
+        "name": "WDX Example - Instance Save Response Message",
+        "info": "# WDX Example - Instance Save Response Message",
+        "x": 1110,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "32c00a0692d361d9",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "1a3ac7dde82ee6d8",
+        "name": "WDX Example - Instance Save Error Response Message",
+        "info": "# WDX Example - Instance Error Save  Message",
+        "x": 1130,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "8dc6ef1d21b7a0f1",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "71b18b38521cb2cf",
+        "name": "WDX Example - Instance Log Message",
+        "info": "# WDX Example - Instance Log Message",
+        "x": 1070,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "d240aadbcebcde1d",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "71b18b38521cb2cf",
+        "name": "WDX Example - Instance Log Error Message",
+        "info": "# WDX Example - Instance Log Error Message",
+        "x": 1090,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "da55e669603bd127",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "71b18b38521cb2cf",
+        "name": "WDX Example - Instance Log Completed Message",
+        "info": "# WDX Example - Instance Log Completed Message",
+        "x": 1110,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "5308b9f1af069c56",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "16a04210f2ab9917",
+        "name": "WDX Example - Instance List Response Message",
+        "info": "# WDX Example - Instance List Response Message",
+        "x": 1100,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "c32d827f43a331a1",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "16a04210f2ab9917",
+        "name": "WDX Example - Instance List Error Response Message",
+        "info": "# WDX Example - Instance List Error  Response Message",
+        "x": 1120,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "ec934f8cfc538bfe",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "b7f69d4b605e6b87",
+        "name": "WDX Example - Instances - List Response Message",
+        "info": "# WDX Example - Instances - List Response Message",
+        "x": 1110,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "7e71196fa357997b",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "b7f69d4b605e6b87",
+        "name": "WDX Example - Instances -  List Error Response Message",
+        "info": "# WDX Example - Instances -  List Error Response Message",
+        "x": 1130,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "df56d7ce795a6998",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "c94f912fd1c89e0c",
+        "name": "WDX Example - Instances - Start Response Message",
+        "info": "# WDX Example - Instances - Start Response Message",
+        "x": 1120,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "5db4f403c217f4e3",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "c94f912fd1c89e0c",
+        "name": "WDX Example - Instances - Start Error Response Message",
+        "info": "# WDX Example - Instances - Start Error Response Message",
+        "x": 1130,
+        "y": 2500,
+        "wires": []
+    },
+    {
+        "id": "58f7f7659b6feea7",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "27fac8ad5c7bdfaf",
+        "name": "WDX Example - Instances - Stop Response Message",
+        "info": "# WDX Example - Instances - Stop Response Message",
+        "x": 1120,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "cf95db8b7ff937c0",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "27fac8ad5c7bdfaf",
+        "name": "WDX Example - Instances - Stop Error Response Message",
+        "info": "# WDX Example - Instances - Stop Error Response Message",
+        "x": 1130,
+        "y": 2880,
+        "wires": []
+    },
+    {
+        "id": "f85c054ac238b10b",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "709a64cd613f92aa",
+        "name": "WDX Example - Instances - Restart Response Message",
+        "info": "# WDX Example - Instances - Restart Response Message",
+        "x": 1120,
+        "y": 3140,
+        "wires": []
+    },
+    {
+        "id": "2e21db9c98c0bc34",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "709a64cd613f92aa",
+        "name": "WDX Example - Instances - Restart Error Response Message",
+        "info": "# WDX Example - Instances - Restart Error Response Message",
+        "x": 1140,
+        "y": 3260,
+        "wires": []
+    },
+    {
+        "id": "7d1b8a2a088e9242",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "ac1eef12b3e08136",
+        "name": "WDX Example - Instances - Restart Response Message",
+        "info": "# WDX Example - Instances - Restart Response Message",
+        "x": 1120,
+        "y": 3520,
+        "wires": []
+    },
+    {
+        "id": "7b702f15070cf310",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "ac1eef12b3e08136",
+        "name": "WDX Example - Instances - Restart Error Response Message",
+        "info": "# WDX Example - Instances - Restart Error Response Message",
+        "x": 1140,
+        "y": 3640,
+        "wires": []
+    },
+    {
+        "id": "dcbb31e3908692a9",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances Monitor",
+        "info": "# WDX Example - Instances",
+        "x": 180,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e4712ebafaec0a07",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - Save",
+        "info": "# WDX Example - Instances - Save",
+        "x": 170,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "678dde34d7ca31a6",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - List",
+        "info": "# WDX Example - Instances - List",
+        "x": 170,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "0706bc98f047da42",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - Logs",
+        "info": "# WDX Example - Instances - Logs",
+        "x": 170,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "b17a902525072d59",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - Detail",
+        "info": "# WDX Example - Instances - Detail",
+        "x": 180,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "901771b8bcfe3397",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - Start",
+        "info": "# WDX Example - Instances - Start",
+        "x": 170,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "3d20dcc212435fef",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - Stop",
+        "info": "# WDX Example - Instances - Stop",
+        "x": 170,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "de82b04e449d5749",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - Restart",
+        "info": "# WDX Example - Instances - Restart",
+        "x": 180,
+        "y": 3060,
+        "wires": []
+    },
+    {
+        "id": "a89e07fd63982ad1",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "name": "WDX Example - Instances - Delete",
+        "info": "# WDX Example - Instances - Delete",
+        "x": 180,
+        "y": 3440,
+        "wires": []
+    },
+    {
+        "id": "97361046a22d02ac",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "c94f912fd1c89e0c",
+        "name": "WDX Example - Instances - Start Reuqest Message",
+        "info": "#WDX Example - Instances - Start Reuqest Message",
+        "x": 250,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "9c519c9712838159",
+        "type": "inject",
+        "z": "1227002d3fc17664",
+        "g": "c94f912fd1c89e0c",
+        "name": "WDX Example - Instances - Start Empty Request",
+        "props": [
+            {
+                "p": "instanceUUID",
+                "v": "",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 260,
+        "y": 2520,
+        "wires": [
+            [
+                "c84a487167028096"
+            ]
+        ]
+    },
+    {
+        "id": "9e3b99b8fe86f6fa",
+        "type": "comment",
+        "z": "1227002d3fc17664",
+        "g": "c94f912fd1c89e0c",
+        "name": "WDX Example - Instances - Start Reuqest Message - Error",
+        "info": "WDX Example - Instances - Start Reuqest Message - Error",
+        "x": 270,
+        "y": 2480,
+        "wires": []
+    },
+    {
+        "id": "a9cd2a0b72383810",
+        "type": "wago.wdx.instance.monitor",
+        "z": "1227002d3fc17664",
+        "g": "79e0992dd9874e19",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 670,
+        "y": 380,
+        "wires": [
+            [
+                "df19ee9df14d4bef"
+            ],
+            [
+                "161e5c6a2869c29d"
+            ],
+            [
+                "f5fce07b9a8a3033"
+            ]
+        ]
+    },
+    {
+        "id": "70079bcee3446c54",
+        "type": "wago.wdx.instance.save",
+        "z": "1227002d3fc17664",
+        "g": "1a3ac7dde82ee6d8",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "instance": "",
+        "x": 660,
+        "y": 820,
+        "wires": [
+            [
+                "caf604e5f51a73f9"
+            ],
+            [
+                "e271c178290df0f6"
+            ]
+        ]
+    },
+    {
+        "id": "25456a42a7acbd29",
+        "type": "wago.wdx.instance.list",
+        "z": "1227002d3fc17664",
+        "g": "16a04210f2ab9917",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 660,
+        "y": 1200,
+        "wires": [
+            [
+                "f45cb44f51cddf31"
+            ],
+            [
+                "4e782f862f8c2c01"
+            ]
+        ]
+    },
+    {
+        "id": "2f3a57f8c40e8dfb",
+        "type": "wago.wdx.instance.monitor-log",
+        "z": "1227002d3fc17664",
+        "g": "71b18b38521cb2cf",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 640,
+        "y": 1640,
+        "wires": [
+            [
+                "af4c762ae3084bfb"
+            ],
+            [
+                "09c81a3ff9df186f"
+            ],
+            [
+                "4e9bc2cea64c93fc"
+            ]
+        ]
+    },
+    {
+        "id": "3d6d4b013873127a",
+        "type": "wago.wdx.instance.detail",
+        "z": "1227002d3fc17664",
+        "g": "b7f69d4b605e6b87",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "instanceUUID": "",
+        "x": 630,
+        "y": 2100,
+        "wires": [
+            [
+                "295a7cf30a7f91f9"
+            ],
+            [
+                "2cb15ded04c4e4fc"
+            ]
+        ]
+    },
+    {
+        "id": "c84a487167028096",
+        "type": "wago.wdx.instance.start",
+        "z": "1227002d3fc17664",
+        "g": "c94f912fd1c89e0c",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 620,
+        "y": 2460,
+        "wires": [
+            [
+                "b0b6deb8c4a19ecf"
+            ],
+            [
+                "71b04eb11d685891"
+            ]
+        ]
+    },
+    {
+        "id": "0f4d66561e4384a9",
+        "type": "wago.wdx.instance.stop",
+        "z": "1227002d3fc17664",
+        "g": "27fac8ad5c7bdfaf",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "instanceUUID": "",
+        "x": 600,
+        "y": 2860,
+        "wires": [
+            [
+                "83d2f89cb3afb24b"
+            ],
+            [
+                "7bc8adc3741bf9d6"
+            ]
+        ]
+    },
+    {
+        "id": "f9fdf1a0aaafc4cd",
+        "type": "wago.wdx.instance.restart",
+        "z": "1227002d3fc17664",
+        "g": "709a64cd613f92aa",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "instanceUUID": "",
+        "x": 590,
+        "y": 3240,
+        "wires": [
+            [
+                "c6ab5ffa61712e24"
+            ],
+            [
+                "35c8d71eb50c4e34"
+            ]
+        ]
+    },
+    {
+        "id": "76b092d9c11ee3f6",
+        "type": "wago.wdx.instance.delete",
+        "z": "1227002d3fc17664",
+        "g": "ac1eef12b3e08136",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "instanceUUID": "",
+        "x": 570,
+        "y": 3620,
+        "wires": [
+            [
+                "46072db786dafdc0"
+            ],
+            [
+                "299c54710a014212"
+            ]
+        ]
+    },
+    {
+        "id": "749358639911e684",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "dd043ba45307c8bc",
+        "name": "Success",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "1a2113791069c228",
+        "type": "inject",
+        "z": "68d54b1d6b382a77",
+        "g": "dd043ba45307c8bc",
+        "name": "WDX Example - Data Get Schema Request",
+        "props": [
+            {
+                "p": "path",
+                "v": "",
+                "vt": "str"
+            },
+            {
+                "p": "level",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 250,
+        "y": 1020,
+        "wires": [
+            [
+                "daf06cd4401541d9"
+            ]
+        ]
+    },
+    {
+        "id": "1dd1dd096cc44b04",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "dd043ba45307c8bc",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 1060,
+        "wires": [],
+        "info": "Error output"
+    },
+    {
+        "id": "4da49816694f2694",
+        "type": "inject",
+        "z": "68d54b1d6b382a77",
+        "g": "cb85dadb81ab72e3",
+        "name": "WDX Example - Data Get Value Request",
+        "props": [
+            {
+                "p": "path",
+                "v": "Virtual.virtual-store.test",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 240,
+        "y": 1800,
+        "wires": [
+            [
+                "52f39c32f7760323"
+            ]
+        ]
+    },
+    {
+        "id": "8f13b02a26d26bfa",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "cb85dadb81ab72e3",
+        "name": "Success",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "f04d2a6b52a869fc",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "cb85dadb81ab72e3",
+        "name": "Errror",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "3c527bff5fed29f7",
+        "type": "inject",
+        "z": "68d54b1d6b382a77",
+        "g": "628e29bd1193ba6b",
+        "name": "WDX Example - Data Set Value Request",
+        "props": [
+            {
+                "p": "path",
+                "v": "Virtual.virtual-store.test",
+                "vt": "str"
+            },
+            {
+                "p": "value",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 240,
+        "y": 2100,
+        "wires": [
+            [
+                "568d9efb74888253"
+            ]
+        ]
+    },
+    {
+        "id": "599af3491c3d3519",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "628e29bd1193ba6b",
+        "name": "Success",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "5e40d8a7043ba43e",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "628e29bd1193ba6b",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "1983f2e6989df38a",
+        "type": "inject",
+        "z": "68d54b1d6b382a77",
+        "g": "f88ee9bf86931b19",
+        "name": "WDX - Data - Subscribe Request",
+        "props": [
+            {
+                "p": "path",
+                "v": "Virtual.virtual-store.test",
+                "vt": "str"
+            },
+            {
+                "p": "subscribe",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 210,
+        "y": 1300,
+        "wires": [
+            [
+                "f9bda9f8741349ed"
+            ]
+        ]
+    },
+    {
+        "id": "d8751b5f06164815",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "f88ee9bf86931b19",
+        "name": "Success",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "a802c4b85126d417",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "f88ee9bf86931b19",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "a3c33c97fde16cdc",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "name": "WDX Example - Data",
+        "info": "# WDX Example - Data",
+        "x": 140,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "6e5fba5568bdcdcd",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "g": "f88ee9bf86931b19",
+        "name": "WDX Example - Data - Monitor Value Subscribe",
+        "info": "# WDX Example - Data - Monitor Value Subscribe",
+        "x": 240,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "270c26938cba17c2",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "g": "f88ee9bf86931b19",
+        "name": "WDX Example - Data - Monitor Value Unsubscribe",
+        "info": "# WDX Example - Data - Monitor Value Unsubscribe",
+        "x": 250,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "88631c8b6f438b3d",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "483cdaf6d9c84b2a",
+        "name": "Success",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "9c029746518c2d21",
+        "type": "inject",
+        "z": "68d54b1d6b382a77",
+        "g": "483cdaf6d9c84b2a",
+        "name": "WDX Example - Data Set Schema Request",
+        "props": [
+            {
+                "p": "schema",
+                "v": "{\"path\":\"Virtual.virtual-store.test\",\"relativePath\":\"test\",\"name\":\"test\",\"metadata\":{\"type\":\"virtual\"},\"readonly\":false,\"subscribeable\":true,\"editable\":true,\"extendable\":false,\"removable\":true,\"refreshable\":false,\"uuid\":\"1374e202-0885-4093-bd8b-bebbae8726ff\"}",
+                "vt": "json"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 240,
+        "y": 740,
+        "wires": [
+            [
+                "23d0bd78cc9b08c8"
+            ]
+        ]
+    },
+    {
+        "id": "af1e6d1fe3882882",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "483cdaf6d9c84b2a",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 780,
+        "wires": [],
+        "info": "Error output"
+    },
+    {
+        "id": "6aa031323270d907",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "g": "c91d12bc9a2278da",
+        "name": "WDX Example - Data  - Schema Monitor Subscribe ",
+        "info": "# WDX Example - Data  - Subscribe Schemaa",
+        "x": 250,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "37b2ada595dcd942",
+        "type": "inject",
+        "z": "68d54b1d6b382a77",
+        "g": "c91d12bc9a2278da",
+        "name": "WDX Example - Data Subscribe Schema Request",
+        "props": [
+            {
+                "p": "subscribe",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 260,
+        "y": 260,
+        "wires": [
+            [
+                "6af56d72537f01a1"
+            ]
+        ]
+    },
+    {
+        "id": "90395eabaaa89d10",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "c91d12bc9a2278da",
+        "name": "Success",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "a42c0f0ade7b924b",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "c91d12bc9a2278da",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "9215de98b0382cd6",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "g": "c91d12bc9a2278da",
+        "name": "WDX Example - Data  - Schema Monitor Unsubscribe ",
+        "info": "# WDX Example - Data  - Schema Monitor Unsubscribe ",
+        "x": 250,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "fdc09c297a35b2db",
+        "type": "inject",
+        "z": "68d54b1d6b382a77",
+        "g": "c91d12bc9a2278da",
+        "name": "WDX Example - Data Unsubscribe Schema Request",
+        "props": [
+            {
+                "p": "subscribe",
+                "v": "false",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 270,
+        "y": 500,
+        "wires": [
+            [
+                "6af56d72537f01a1"
+            ]
+        ]
+    },
+    {
+        "id": "08d527c1b15fec9a",
+        "type": "inject",
+        "z": "68d54b1d6b382a77",
+        "g": "f88ee9bf86931b19",
+        "name": "WDX - Data - Subscribe Request",
+        "props": [
+            {
+                "p": "path",
+                "v": "Virtual.virtual-store.test",
+                "vt": "str"
+            },
+            {
+                "p": "subscribe",
+                "v": "false",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 210,
+        "y": 1520,
+        "wires": [
+            [
+                "f9bda9f8741349ed"
+            ]
+        ]
+    },
+    {
+        "id": "507e4a1ce1fabfaf",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "c91d12bc9a2278da",
+        "name": "Complete",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "1a4d956d27eaf7f5",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "g": "c91d12bc9a2278da",
+        "name": "WDX Example - Data - MOnitor Schema Message",
+        "info": "# WDX Example - Data - MOnitor Schema Message",
+        "x": 1190,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "82bf14f8d45731a4",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "g": "c91d12bc9a2278da",
+        "name": "WDX Example - Data Subscribe Schema",
+        "info": "# WDX Example - Data Subscribe Schema",
+        "x": 1160,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "c4966ead96a14b75",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "g": "c91d12bc9a2278da",
+        "name": "WDX Example - Data Subscribe Schema",
+        "info": "# WDX Example - Data Subscribe Schema",
+        "x": 1160,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "baf33fb48f36b23a",
+        "type": "debug",
+        "z": "68d54b1d6b382a77",
+        "g": "f88ee9bf86931b19",
+        "name": "Complete",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "b8931454a9a799a3",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "g": "f88ee9bf86931b19",
+        "name": "WDX Example - Data  - Value Changes Done Message",
+        "info": "# WDX Example - Data  - Value Changes Done Message",
+        "x": 1200,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "c1ebf9c07290cd72",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "g": "f88ee9bf86931b19",
+        "name": "WDX Example - Data  - Value Changes Error Message",
+        "info": "#WDX Example - Data  - Value Changes Error Message",
+        "x": 1200,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "3109e6742a903269",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "g": "f88ee9bf86931b19",
+        "name": "WDX Example - Data  - Value Changes Message",
+        "info": "#WDX Example - Data  - Value Changes  Message",
+        "x": 1180,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "27481305e03e67b4",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "name": "WDX Example - Data - Monitor Schema",
+        "info": "# WDX Example - Data - Monitor Schema",
+        "x": 190,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "0bbd401edb24b303",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "name": "WDX Example - Data - Set Schema",
+        "info": "# WDX Example - Data - Set Schema",
+        "x": 180,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "6e2b9dd98b420cd2",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "name": "WDX Example - Data - Get Schema",
+        "info": "# WDX Example - Data - Get Schema",
+        "x": 180,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "de016557fc9c9855",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "name": "WDX Example - Data - Monitor Value Schema",
+        "info": "# WDX Example - Data - Monitor Value Schema",
+        "x": 210,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "ff7cd347d22c167c",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "name": "WDX Example - Data - Get Value Schema",
+        "info": "# WDX Example - Data - Get Value Schema",
+        "x": 200,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "5528f3c5119a28df",
+        "type": "comment",
+        "z": "68d54b1d6b382a77",
+        "name": "WDX Example - Data - Set Value Schema",
+        "info": "# WDX Example - Data - Set Value Schema",
+        "x": 200,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "6af56d72537f01a1",
+        "type": "wago.wdx.data.monitor-schema",
+        "z": "68d54b1d6b382a77",
+        "g": "c91d12bc9a2278da",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "subscribe": false,
+        "path": "",
+        "x": 670,
+        "y": 380,
+        "wires": [
+            [
+                "90395eabaaa89d10"
+            ],
+            [
+                "a42c0f0ade7b924b"
+            ],
+            [
+                "507e4a1ce1fabfaf"
+            ]
+        ]
+    },
+    {
+        "id": "23d0bd78cc9b08c8",
+        "type": "wago.wdx.data.set-schema",
+        "z": "68d54b1d6b382a77",
+        "g": "483cdaf6d9c84b2a",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "path": "",
+        "schema": "",
+        "x": 650,
+        "y": 740,
+        "wires": [
+            [
+                "88631c8b6f438b3d"
+            ],
+            [
+                "af1e6d1fe3882882"
+            ]
+        ]
+    },
+    {
+        "id": "daf06cd4401541d9",
+        "type": "wago.wdx.data.get-schema",
+        "z": "68d54b1d6b382a77",
+        "g": "dd043ba45307c8bc",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "path": "dsdsds",
+        "level": 1,
+        "x": 650,
+        "y": 1020,
+        "wires": [
+            [
+                "749358639911e684"
+            ],
+            [
+                "1dd1dd096cc44b04"
+            ]
+        ]
+    },
+    {
+        "id": "f9bda9f8741349ed",
+        "type": "wago.wdx.data.monitor-value",
+        "z": "68d54b1d6b382a77",
+        "g": "f88ee9bf86931b19",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "path": "",
+        "subscribe": false,
+        "x": 680,
+        "y": 1420,
+        "wires": [
+            [
+                "d8751b5f06164815"
+            ],
+            [
+                "a802c4b85126d417"
+            ],
+            [
+                "baf33fb48f36b23a"
+            ]
+        ]
+    },
+    {
+        "id": "52f39c32f7760323",
+        "type": "wago.wdx.data.get-value",
+        "z": "68d54b1d6b382a77",
+        "g": "cb85dadb81ab72e3",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "path": "",
+        "x": 660,
+        "y": 1800,
+        "wires": [
+            [
+                "8f13b02a26d26bfa"
+            ],
+            [
+                "f04d2a6b52a869fc"
+            ]
+        ]
+    },
+    {
+        "id": "568d9efb74888253",
+        "type": "wago.wdx.data.set-value",
+        "z": "68d54b1d6b382a77",
+        "g": "628e29bd1193ba6b",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "path": "",
+        "value": "",
+        "x": 660,
+        "y": 2100,
+        "wires": [
+            [
+                "599af3491c3d3519"
+            ],
+            [
+                "5e40d8a7043ba43e"
+            ]
+        ]
+    },
+    {
+        "id": "891473f9c8e160ea",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms",
+        "info": "# WDX Example - Alarms",
+        "x": 140,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "15d1cbcc634d8684",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - List",
+        "info": "# WDX Example - Alarms - List",
+        "x": 160,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "c369d3ac228ba6ae",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - List Active",
+        "info": "# WDX Example - Alarms - List Active",
+        "x": 180,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "d3ed26faeefc570d",
+        "type": "inject",
+        "z": "f672de24d745bfec",
+        "g": "b0211bd3ca6210cb",
+        "name": "WDX Example - Alarms - List Request",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 230,
+        "y": 1000,
+        "wires": [
+            [
+                "7f7d968315d50c85"
+            ]
+        ]
+    },
+    {
+        "id": "5982f544452c3ad1",
+        "type": "inject",
+        "z": "f672de24d745bfec",
+        "g": "1662c27ba144f3b4",
+        "name": "WDX Example - Alarms - List Active Request",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 1300,
+        "wires": [
+            [
+                "6d0a6d04f946c131"
+            ]
+        ]
+    },
+    {
+        "id": "a08d70baff4c566d",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "b0211bd3ca6210cb",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "f1414bc871bcab3b",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "b0211bd3ca6210cb",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "0de151deb969d6f7",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "1662c27ba144f3b4",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "4123bc7a24563cc0",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "1662c27ba144f3b4",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "31b12c2302039950",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - List History",
+        "info": "# WDX Example - Alarms - List History",
+        "x": 180,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "1195d66b3135d0c9",
+        "type": "inject",
+        "z": "f672de24d745bfec",
+        "g": "2d513a872902240d",
+        "name": "WDX Example - Alarms - List History Request",
+        "props": [
+            {
+                "p": "alarmId",
+                "v": "a37a75f2-8f1c-11ef-b4ad-088fc37eff34",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 250,
+        "y": 1600,
+        "wires": [
+            [
+                "4ab321c7d3f2f265"
+            ]
+        ]
+    },
+    {
+        "id": "b1a3c73c2b8a585d",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "2d513a872902240d",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "cfa747d92f72a1b6",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "2d513a872902240d",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "e921bebbd91a81df",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - Confirm",
+        "info": "# WDX Example - Alarms - Confirm",
+        "x": 170,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "0635a1d43187f33f",
+        "type": "inject",
+        "z": "f672de24d745bfec",
+        "g": "335274b494266064",
+        "name": "WDX Example - Alarms - Confirm Request",
+        "props": [
+            {
+                "p": "alarmId",
+                "v": "abfbe647-be8f-4610-a7e2-196438a899ee",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 240,
+        "y": 1900,
+        "wires": [
+            [
+                "c37cb2c4043fa3ee"
+            ]
+        ]
+    },
+    {
+        "id": "8b1cd2bcd006a590",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - Confirm All",
+        "info": "# WDX Example - Alarms - Confirm All",
+        "x": 180,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "43c57a7281301189",
+        "type": "inject",
+        "z": "f672de24d745bfec",
+        "g": "7797a3fb812dba08",
+        "name": "WDX Example - Alarms - Confirm All Request",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 2220,
+        "wires": [
+            [
+                "17bee98b32548edb"
+            ]
+        ]
+    },
+    {
+        "id": "1d0e10be606eaada",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "7797a3fb812dba08",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "fb15107ae8c76d81",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "7797a3fb812dba08",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "a8b328a111b4c44a",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "335274b494266064",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "798be9f596e725d4",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "335274b494266064",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "ceedfbee29f3c69d",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "g": "b232e291242c1cf9",
+        "name": "WDX Example - Alarms - Monitor - Subscribe",
+        "info": "# WDX Example - Alarms - Monitor - Subscribe",
+        "x": 230,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a79393e1401bcc31",
+        "type": "inject",
+        "z": "f672de24d745bfec",
+        "g": "b232e291242c1cf9",
+        "name": "WDX Example - Alarms - Subscribe Request",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "subscribe",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 240,
+        "wires": [
+            [
+                "ab6e799e468e0619"
+            ]
+        ]
+    },
+    {
+        "id": "9e6790908a4ad555",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "b232e291242c1cf9",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "0210afcb03accbcf",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "b232e291242c1cf9",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "0240682e6fe3a07a",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "g": "b232e291242c1cf9",
+        "name": "WDX Example - Alarms - Monitor - Unsubscribe",
+        "info": "# WDX Example - Alarms - Monitor - Unsubscribe",
+        "x": 240,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "8caf9dc708b45fe7",
+        "type": "inject",
+        "z": "f672de24d745bfec",
+        "g": "b232e291242c1cf9",
+        "name": "WDX Example - Alarms - Unsubscribe Request",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "subscribe",
+                "v": "false",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 440,
+        "wires": [
+            [
+                "ab6e799e468e0619"
+            ]
+        ]
+    },
+    {
+        "id": "2ea602fb779cc8dc",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "b232e291242c1cf9",
+        "name": "Completed",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "52db45a07881ab0d",
+        "type": "inject",
+        "z": "f672de24d745bfec",
+        "g": "9d9f3cce06c40237",
+        "name": "WDX Example - Alarms - Detail Request",
+        "props": [
+            {
+                "p": "alarmId",
+                "v": "abfbe647-be8f-4610-a7e2-196438a899ee",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 240,
+        "y": 2520,
+        "wires": [
+            [
+                "37eb42f96e29632f"
+            ]
+        ]
+    },
+    {
+        "id": "8ba2a53e15fa820a",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "9d9f3cce06c40237",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 2480,
+        "wires": []
+    },
+    {
+        "id": "fb5d6f671c4e9c33",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "9d9f3cce06c40237",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 2560,
+        "wires": []
+    },
+    {
+        "id": "3cabd0822f97a181",
+        "type": "inject",
+        "z": "f672de24d745bfec",
+        "g": "112f5683c1f72e34",
+        "name": "WDX Example - Alarms - Delete Request",
+        "props": [
+            {
+                "p": "alarmId",
+                "v": "abfbe647-be8f-4610-a7e2-196438a899ee",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 260,
+        "y": 2820,
+        "wires": [
+            [
+                "1715d34f4c55e6bc"
+            ]
+        ]
+    },
+    {
+        "id": "53d45c8da45dd8bf",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "112f5683c1f72e34",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 2780,
+        "wires": []
+    },
+    {
+        "id": "ac8c53144f06d5a5",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "112f5683c1f72e34",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 2860,
+        "wires": []
+    },
+    {
+        "id": "1157465cfe179f83",
+        "type": "inject",
+        "z": "f672de24d745bfec",
+        "g": "563cd348efcd18dd",
+        "name": "WDX Example - Alarms - Set Request",
+        "props": [
+            {
+                "p": "alarm",
+                "v": "{\"name\":\"Virtual.virtual-store.test \",\"active\":true,\"number\":0,\"type\":\"error-ack\",\"conditions\":[{\"path\":\"Virtual.virtual-store.test\",\"expression\":\"IS_NOT_EMPTY\",\"value\":null,\"uuid\":\"e02f163a-2903-4cbb-afbb-7201eecfbe5b\"}],\"message\":null,\"messageOff\":null,\"uuid\":\"abfbe647-be8f-4610-a7e2-196438a899ee\"}",
+                "vt": "json"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 230,
+        "y": 700,
+        "wires": [
+            [
+                "11a83408d811ae3b"
+            ]
+        ]
+    },
+    {
+        "id": "57667e20c524c913",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "563cd348efcd18dd",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "74940f21241a47de",
+        "type": "debug",
+        "z": "f672de24d745bfec",
+        "g": "563cd348efcd18dd",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "b8291ecabacfbc50",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "g": "b232e291242c1cf9",
+        "name": "WDX Example - Alarms - Monitor - Subscribe",
+        "info": "# WDX Example - Alarms - Monitor - Subscribe",
+        "x": 1050,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "ec9816db9b664156",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "g": "b232e291242c1cf9",
+        "name": "WDX Example - Alarms - Monitor - Subscribe",
+        "info": "# WDX Example - Alarms - Monitor - Subscribe",
+        "x": 1050,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "db7d8a5588ed120b",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "g": "b232e291242c1cf9",
+        "name": "WDX Example - Alarms - Monitor - Subscribe - Completed",
+        "info": "#WDX Example - Alarms - Monitor - Subscribe - Completed",
+        "x": 1090,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "43bcb44506b51c8e",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - Monitor",
+        "info": "# WDX Example - Alarms - Monitor",
+        "x": 170,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "2c24904b1ca7c8bf",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - Save",
+        "info": "# WDX Example - Alarms - Save",
+        "x": 170,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "7d4ee12a97a1c2fa",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "name": "WDX Example - Alarms - Detail",
+        "info": "# WDX Example - Alarms - Detail",
+        "x": 170,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "a99ffd44f236274d",
+        "type": "comment",
+        "z": "f672de24d745bfec",
+        "name": "WDX - Examples - Alarms - Delete",
+        "info": "",
+        "x": 200,
+        "y": 2700,
+        "wires": []
+    },
+    {
+        "id": "ab6e799e468e0619",
+        "type": "wago.wdx.alarm.monitor",
+        "z": "f672de24d745bfec",
+        "g": "b232e291242c1cf9",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "subscribe": false,
+        "x": 640,
+        "y": 340,
+        "wires": [
+            [
+                "9e6790908a4ad555"
+            ],
+            [
+                "0210afcb03accbcf"
+            ],
+            [
+                "2ea602fb779cc8dc"
+            ]
+        ]
+    },
+    {
+        "id": "11a83408d811ae3b",
+        "type": "wago.wdx.alarm.save",
+        "z": "f672de24d745bfec",
+        "g": "563cd348efcd18dd",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "alarm": "",
+        "x": 620,
+        "y": 700,
+        "wires": [
+            [
+                "57667e20c524c913"
+            ],
+            [
+                "74940f21241a47de"
+            ]
+        ]
+    },
+    {
+        "id": "7f7d968315d50c85",
+        "type": "wago.wdx.alarm.list",
+        "z": "f672de24d745bfec",
+        "g": "b0211bd3ca6210cb",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 610,
+        "y": 1000,
+        "wires": [
+            [
+                "a08d70baff4c566d"
+            ],
+            [
+                "f1414bc871bcab3b"
+            ]
+        ]
+    },
+    {
+        "id": "6d0a6d04f946c131",
+        "type": "wago.wdx.alarm.list-active",
+        "z": "f672de24d745bfec",
+        "g": "1662c27ba144f3b4",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 610,
+        "y": 1300,
+        "wires": [
+            [
+                "0de151deb969d6f7"
+            ],
+            [
+                "4123bc7a24563cc0"
+            ]
+        ]
+    },
+    {
+        "id": "4ab321c7d3f2f265",
+        "type": "wago.wdx.alarm.list-history",
+        "z": "f672de24d745bfec",
+        "g": "2d513a872902240d",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 610,
+        "y": 1600,
+        "wires": [
+            [
+                "b1a3c73c2b8a585d"
+            ],
+            [
+                "cfa747d92f72a1b6"
+            ]
+        ]
+    },
+    {
+        "id": "c37cb2c4043fa3ee",
+        "type": "wago.wdx.alarm.confirm",
+        "z": "f672de24d745bfec",
+        "g": "335274b494266064",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 600,
+        "y": 1900,
+        "wires": [
+            [
+                "a8b328a111b4c44a"
+            ],
+            [
+                "798be9f596e725d4"
+            ]
+        ]
+    },
+    {
+        "id": "17bee98b32548edb",
+        "type": "wago.wdx.alarm.confirm-all",
+        "z": "f672de24d745bfec",
+        "g": "7797a3fb812dba08",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 590,
+        "y": 2220,
+        "wires": [
+            [
+                "1d0e10be606eaada"
+            ],
+            [
+                "fb15107ae8c76d81"
+            ]
+        ]
+    },
+    {
+        "id": "37eb42f96e29632f",
+        "type": "wago.wdx.alarm.detail",
+        "z": "f672de24d745bfec",
+        "g": "9d9f3cce06c40237",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "alarmId": "",
+        "x": 560,
+        "y": 2520,
+        "wires": [
+            [
+                "8ba2a53e15fa820a"
+            ],
+            [
+                "fb5d6f671c4e9c33"
+            ]
+        ]
+    },
+    {
+        "id": "1715d34f4c55e6bc",
+        "type": "wago.wdx.alarm.delete",
+        "z": "f672de24d745bfec",
+        "g": "112f5683c1f72e34",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "alarmId": "",
+        "x": 560,
+        "y": 2820,
+        "wires": [
+            [
+                "53d45c8da45dd8bf"
+            ],
+            [
+                "ac8c53144f06d5a5"
+            ]
+        ]
     },
     {
         "id": "037eef7354793bab",
@@ -1012,10 +4553,5 @@
                 "4946561879694527"
             ]
         ]
-    },
-    {
-        "id": "3949037aa7f8a94a",
-        "type": "wago.wdx.web-socket",
-        "url": "ws://localhost:82"
     }
 ]
