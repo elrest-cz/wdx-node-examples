@@ -1,206 +1,207 @@
 [
     {
-        "id": "b4d75ba3ddc22023",
+        "id": "d3e890056764bb1e",
         "type": "tab",
-        "label": "WDX Example - Building Lights Colors",
+        "label": "WDX Example - Trends",
         "disabled": false,
-        "info": "> \n    ██╗  ██╗ ██████╗ ████████╗███████╗██╗         ██╗     ██╗ ██████╗ ██╗  ██╗████████╗███████╗     ██████╗ ██████╗ ██╗      ██████╗ ██████╗ \n    ██║  ██║██╔═══██╗╚══██╔══╝██╔════╝██║         ██║     ██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝    ██╔════╝██╔═══██╗██║     ██╔═══██╗██╔══██╗\n    ███████║██║   ██║   ██║   █████╗  ██║         ██║     ██║██║  ███╗███████║   ██║   ███████╗    ██║     ██║   ██║██║     ██║   ██║██████╔╝\n    ██╔══██║██║   ██║   ██║   ██╔══╝  ██║         ██║     ██║██║   ██║██╔══██║   ██║   ╚════██║    ██║     ██║   ██║██║     ██║   ██║██╔══██╗\n    ██║  ██║╚██████╔╝   ██║   ███████╗███████╗    ███████╗██║╚██████╔╝██║  ██║   ██║   ███████║    ╚██████╗╚██████╔╝███████╗╚██████╔╝██║  ██║\n    ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚══════╝╚══════╝    ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝     ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝",
+        "info": "# WDX Example - Trends",
         "env": []
     },
     {
-        "id": "0bc683672ddabcaf",
+        "id": "9ffbc3b9ee008a9f",
+        "type": "group",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - List",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "027e3fa7bed68009",
+            "2c8b9296b3f818a0",
+            "6d9760225e4e8ea8",
+            "7d1421dd48b3d68b"
+        ],
+        "x": 34,
+        "y": 179,
+        "w": 1012,
+        "h": 162
+    },
+    {
+        "id": "91e984cc770c72d1",
+        "type": "group",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - Save",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3392dbf14f731c31",
+            "1035e3d6740fc63e",
+            "fadd5aa2f5d87f44",
+            "7e51fbbd5c2354ec"
+        ],
+        "x": 34,
+        "y": 479,
+        "w": 1012,
+        "h": 162
+    },
+    {
+        "id": "f1d9158abd2c0091",
+        "type": "group",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - Detail",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "61534039cca0fda4",
+            "124c9b2119e74045",
+            "d7b5c7853eb5d8bd",
+            "57a4afe7ad3b5948"
+        ],
+        "x": 34,
+        "y": 779,
+        "w": 1012,
+        "h": 162
+    },
+    {
+        "id": "b869f3d54ffe7d99",
+        "type": "group",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - Delete",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b74c022951244abb",
+            "68c0244c47a96302",
+            "3055e06f690d35e9",
+            "60764953622b1287"
+        ],
+        "x": 34,
+        "y": 2479,
+        "w": 1012,
+        "h": 162
+    },
+    {
+        "id": "9287544fac84226f",
+        "type": "group",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trend - Monitor",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "96d64c72d7261fe1",
+            "f9e88d8b51971274",
+            "8aba618a2df785a4",
+            "a5cee7854871fbcc",
+            "9ddf992487665758",
+            "e5322cecfd03cbe1",
+            "8b9481374ae885ce",
+            "39d99221141173bf",
+            "50ef02b57b19ae9a",
+            "77df0637d33bc05d",
+            "b7f033b97fc59b7a"
+        ],
+        "x": 34,
+        "y": 1079,
+        "w": 1432,
+        "h": 362
+    },
+    {
+        "id": "2889330cea09ea3e",
+        "type": "group",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - Export Image",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f22bee5cc47822f5",
+            "814af64b908fcad1",
+            "e96a7a470d593763",
+            "60e3f0cbe1b4d44b"
+        ],
+        "x": 34,
+        "y": 1579,
+        "w": 1012,
+        "h": 162
+    },
+    {
+        "id": "5543a005770d01e1",
+        "type": "group",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - Export SQLite",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8ded43cd6a0df788",
+            "eda39d581d0b71d5",
+            "f635ec242364c141",
+            "276f35b96c9c7c9e"
+        ],
+        "x": 34,
+        "y": 1879,
+        "w": 1012,
+        "h": 162
+    },
+    {
+        "id": "95f5b28e5f67f8c5",
+        "type": "group",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - Export CSV",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "423fe36a04b9cbc7",
+            "ab5f1b9203856af8",
+            "a20ea3b188b3d9b5",
+            "5be3e4898a8739fa"
+        ],
+        "x": 34,
+        "y": 2179,
+        "w": 1012,
+        "h": 162
+    },
+    {
+        "id": "2d69459bbdb9a60f",
         "type": "comment",
-        "z": "b4d75ba3ddc22023",
-        "name": "WDX Example - Building Lights",
-        "info": "\n    ██╗  ██╗ ██████╗ ████████╗███████╗██╗         ██╗     ██╗ ██████╗ ██╗  ██╗████████╗███████╗     ██████╗ ██████╗ ██╗      ██████╗ ██████╗ \n    ██║  ██║██╔═══██╗╚══██╔══╝██╔════╝██║         ██║     ██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝    ██╔════╝██╔═══██╗██║     ██╔═══██╗██╔══██╗\n    ███████║██║   ██║   ██║   █████╗  ██║         ██║     ██║██║  ███╗███████║   ██║   ███████╗    ██║     ██║   ██║██║     ██║   ██║██████╔╝\n    ██╔══██║██║   ██║   ██║   ██╔══╝  ██║         ██║     ██║██║   ██║██╔══██║   ██║   ╚════██║    ██║     ██║   ██║██║     ██║   ██║██╔══██╗\n    ██║  ██║╚██████╔╝   ██║   ███████╗███████╗    ███████╗██║╚██████╔╝██║  ██║   ██║   ███████║    ╚██████╗╚██████╔╝███████╗╚██████╔╝██║  ██║\n    ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚══════╝╚══════╝    ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝     ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝",
-        "x": 170,
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends",
+        "info": "# WDX Example - Trends",
+        "x": 140,
         "y": 40,
         "wires": []
     },
     {
-        "id": "c296341ca79574ae",
-        "type": "inject",
-        "z": "b4d75ba3ddc22023",
-        "name": "Number of floors: Default 10",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "floors",
-        "payload": "11",
-        "payloadType": "num",
-        "x": 180,
-        "y": 160,
-        "wires": [
-            [
-                "e62a6145740e3ef2"
-            ]
-        ]
-    },
-    {
-        "id": "a64c4b0c0cb792bb",
-        "type": "inject",
-        "z": "b4d75ba3ddc22023",
-        "name": "Number of rooms:Default 7",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "rooms",
-        "payload": "7",
-        "payloadType": "num",
-        "x": 170,
-        "y": 280,
-        "wires": [
-            [
-                "e62a6145740e3ef2"
-            ]
-        ]
-    },
-    {
-        "id": "536f392986a69423",
+        "id": "2c50413c58de4f87",
         "type": "comment",
-        "z": "b4d75ba3ddc22023",
-        "name": "WDX Example - Building Lights - Configuration",
-        "info": "\n    ██╗  ██╗ ██████╗ ████████╗███████╗██╗         ██╗     ██╗ ██████╗ ██╗  ██╗████████╗███████╗     ██████╗ ██████╗ ██╗      ██████╗ ██████╗ \n    ██║  ██║██╔═══██╗╚══██╔══╝██╔════╝██║         ██║     ██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝    ██╔════╝██╔═══██╗██║     ██╔═══██╗██╔══██╗\n    ███████║██║   ██║   ██║   █████╗  ██║         ██║     ██║██║  ███╗███████║   ██║   ███████╗    ██║     ██║   ██║██║     ██║   ██║██████╔╝\n    ██╔══██║██║   ██║   ██║   ██╔══╝  ██║         ██║     ██║██║   ██║██╔══██║   ██║   ╚════██║    ██║     ██║   ██║██║     ██║   ██║██╔══██╗\n    ██║  ██║╚██████╔╝   ██║   ███████╗███████╗    ███████╗██║╚██████╔╝██║  ██║   ██║   ███████║    ╚██████╗╚██████╔╝███████╗╚██████╔╝██║  ██║\n    ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚══════╝╚══════╝    ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝     ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝",
-        "x": 210,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "6c3aa5a662633352",
-        "type": "debug",
-        "z": "b4d75ba3ddc22023",
-        "name": "Configuration of floor and room count",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1210,
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - List",
+        "info": "# WDX Example - Trends - List",
+        "x": 160,
         "y": 140,
         "wires": []
     },
     {
-        "id": "11695e6b3a119253",
+        "id": "6c19b7d88a4ae9d6",
         "type": "comment",
-        "z": "b4d75ba3ddc22023",
-        "name": "WDX Example - Building Lights - Room Data Adapters Instance",
-        "info": "\n    ██╗  ██╗ ██████╗ ████████╗███████╗██╗         ██╗     ██╗ ██████╗ ██╗  ██╗████████╗███████╗     ██████╗ ██████╗ ██╗      ██████╗ ██████╗ \n    ██║  ██║██╔═══██╗╚══██╔══╝██╔════╝██║         ██║     ██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝    ██╔════╝██╔═══██╗██║     ██╔═══██╗██╔══██╗\n    ███████║██║   ██║   ██║   █████╗  ██║         ██║     ██║██║  ███╗███████║   ██║   ███████╗    ██║     ██║   ██║██║     ██║   ██║██████╔╝\n    ██╔══██║██║   ██║   ██║   ██╔══╝  ██║         ██║     ██║██║   ██║██╔══██║   ██║   ╚════██║    ██║     ██║   ██║██║     ██║   ██║██╔══██╗\n    ██║  ██║╚██████╔╝   ██║   ███████╗███████╗    ███████╗██║╚██████╔╝██║  ██║   ██║   ███████║    ╚██████╗╚██████╔╝███████╗╚██████╔╝██║  ██║\n    ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚══════╝╚══════╝    ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝     ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝",
-        "x": 270,
-        "y": 380,
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - Save",
+        "info": "# WDX Example - Trends - Save",
+        "x": 160,
+        "y": 440,
         "wires": []
     },
     {
-        "id": "1aef7f2701caff50",
-        "type": "comment",
-        "z": "b4d75ba3ddc22023",
-        "name": "WDX Example -  Building Lights - Room Data Light Color Schema",
-        "info": "\n    ██╗  ██╗ ██████╗ ████████╗███████╗██╗         ██╗     ██╗ ██████╗ ██╗  ██╗████████╗███████╗     ██████╗ ██████╗ ██╗      ██████╗ ██████╗ \n    ██║  ██║██╔═══██╗╚══██╔══╝██╔════╝██║         ██║     ██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝    ██╔════╝██╔═══██╗██║     ██╔═══██╗██╔══██╗\n    ███████║██║   ██║   ██║   █████╗  ██║         ██║     ██║██║  ███╗███████║   ██║   ███████╗    ██║     ██║   ██║██║     ██║   ██║██████╔╝\n    ██╔══██║██║   ██║   ██║   ██╔══╝  ██║         ██║     ██║██║   ██║██╔══██║   ██║   ╚════██║    ██║     ██║   ██║██║     ██║   ██║██╔══██╗\n    ██║  ██║╚██████╔╝   ██║   ███████╗███████╗    ███████╗██║╚██████╔╝██║  ██║   ██║   ███████║    ╚██████╗╚██████╔╝███████╗╚██████╔╝██║  ██║\n    ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚══════╝╚══════╝    ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝     ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝",
-        "x": 270,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "0eb5c56355085246",
-        "type": "comment",
-        "z": "b4d75ba3ddc22023",
-        "name": "WDX Example - Building Lights - Data Light Color Schema Alarms",
-        "info": "\n    ██╗  ██╗ ██████╗ ████████╗███████╗██╗         ██╗     ██╗ ██████╗ ██╗  ██╗████████╗███████╗     ██████╗ ██████╗ ██╗      ██████╗ ██████╗ \n    ██║  ██║██╔═══██╗╚══██╔══╝██╔════╝██║         ██║     ██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝    ██╔════╝██╔═══██╗██║     ██╔═══██╗██╔══██╗\n    ███████║██║   ██║   ██║   █████╗  ██║         ██║     ██║██║  ███╗███████║   ██║   ███████╗    ██║     ██║   ██║██║     ██║   ██║██████╔╝\n    ██╔══██║██║   ██║   ██║   ██╔══╝  ██║         ██║     ██║██║   ██║██╔══██║   ██║   ╚════██║    ██║     ██║   ██║██║     ██║   ██║██╔══██╗\n    ██║  ██║╚██████╔╝   ██║   ███████╗███████╗    ███████╗██║╚██████╔╝██║  ██║   ██║   ███████║    ╚██████╗╚██████╔╝███████╗╚██████╔╝██║  ██║\n    ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚══════╝╚══════╝    ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝     ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝",
-        "x": 270,
-        "y": 1040,
-        "wires": []
-    },
-    {
-        "id": "e62a6145740e3ef2",
-        "type": "join",
-        "z": "b4d75ba3ddc22023",
-        "name": "Building Matrix Configuration ",
-        "mode": "custom",
-        "build": "object",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": true,
-        "timeout": "",
-        "count": "2",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "num",
-        "reduceFixup": "",
-        "x": 510,
-        "y": 220,
-        "wires": [
-            [
-                "11483760c0b496b4"
-            ]
-        ],
-        "inputLabels": [
-            "asdasdasd"
-        ],
-        "outputLabels": [
-            "asdasdsad"
-        ]
-    },
-    {
-        "id": "f5f4148f82765be8",
-        "type": "comment",
-        "z": "b4d75ba3ddc22023",
-        "name": "WDX Example - Building Lights - Configuration Store in global",
-        "info": "\n    ██╗  ██╗ ██████╗ ████████╗███████╗██╗         ██╗     ██╗ ██████╗ ██╗  ██╗████████╗███████╗     ██████╗ ██████╗ ██╗      ██████╗ ██████╗ \n    ██║  ██║██╔═══██╗╚══██╔══╝██╔════╝██║         ██║     ██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝    ██╔════╝██╔═══██╗██║     ██╔═══██╗██╔══██╗\n    ███████║██║   ██║   ██║   █████╗  ██║         ██║     ██║██║  ███╗███████║   ██║   ███████╗    ██║     ██║   ██║██║     ██║   ██║██████╔╝\n    ██╔══██║██║   ██║   ██║   ██╔══╝  ██║         ██║     ██║██║   ██║██╔══██║   ██║   ╚════██║    ██║     ██║   ██║██║     ██║   ██║██╔══██╗\n    ██║  ██║╚██████╔╝   ██║   ███████╗███████╗    ███████╗██║╚██████╔╝██║  ██║   ██║   ███████║    ╚██████╗╚██████╔╝███████╗╚██████╔╝██║  ██║\n    ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚══════╝╚══════╝    ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝     ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝",
-        "x": 1000,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "11483760c0b496b4",
-        "type": "function",
-        "z": "b4d75ba3ddc22023",
-        "name": "Store Configuration in global",
-        "func": "const settings={\n    floors:[],\n    rooms:[],\n};\n\nfor(let i=1; i<=msg.payload.floors;i++){\n    settings.floors.push(i);\n}\n\nfor (let i = 1; i <= msg.payload.rooms; i++) {\n    settings.rooms.push(i);\n}\n\n\nglobal.set(\"WDXExampleBuildingLightsConfiguration\", settings);\nreturn settings;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 900,
-        "y": 140,
-        "wires": [
-            [
-                "6c3aa5a662633352"
-            ]
-        ]
-    },
-    {
-        "id": "40ad95da38aa61bc",
+        "id": "2c8b9296b3f818a0",
         "type": "inject",
-        "z": "b4d75ba3ddc22023",
-        "name": "Start Instances",
+        "z": "d3e890056764bb1e",
+        "g": "9ffbc3b9ee008a9f",
+        "name": "WDX Example - Trends List Request",
         "props": [
             {
                 "p": "payload"
@@ -217,192 +218,804 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 140,
-        "y": 460,
+        "x": 220,
+        "y": 260,
         "wires": [
             [
-                "182ea89df8981ed8"
+                "7d1421dd48b3d68b"
             ]
         ]
     },
     {
-        "id": "182ea89df8981ed8",
-        "type": "function",
-        "z": "b4d75ba3ddc22023",
-        "name": "Retrieve Configuration from global",
-        "func": "const WDXExampleBuildingLightsConfiguration=  \nglobal.get(\"WDXExampleBuildingLightsConfiguration\");\nreturn WDXExampleBuildingLightsConfiguration;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 540,
-        "y": 460,
-        "wires": [
-            [
-                "6528c38d6fb2379c"
-            ]
-        ]
-    },
-    {
-        "id": "0257d1867a48a701",
-        "type": "comment",
-        "z": "b4d75ba3ddc22023",
-        "name": "WDX Example - Building Lights - Data Light Color Schema Trends",
-        "info": "\n    ██╗  ██╗ ██████╗ ████████╗███████╗██╗         ██╗     ██╗ ██████╗ ██╗  ██╗████████╗███████╗     ██████╗ ██████╗ ██╗      ██████╗ ██████╗ \n    ██║  ██║██╔═══██╗╚══██╔══╝██╔════╝██║         ██║     ██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝    ██╔════╝██╔═══██╗██║     ██╔═══██╗██╔══██╗\n    ███████║██║   ██║   ██║   █████╗  ██║         ██║     ██║██║  ███╗███████║   ██║   ███████╗    ██║     ██║   ██║██║     ██║   ██║██████╔╝\n    ██╔══██║██║   ██║   ██║   ██╔══╝  ██║         ██║     ██║██║   ██║██╔══██║   ██║   ╚════██║    ██║     ██║   ██║██║     ██║   ██║██╔══██╗\n    ██║  ██║╚██████╔╝   ██║   ███████╗███████╗    ███████╗██║╚██████╔╝██║  ██║   ██║   ███████║    ╚██████╗╚██████╔╝███████╗╚██████╔╝██║  ██║\n    ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚══════╝╚══════╝    ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝     ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝",
-        "x": 270,
-        "y": 1080,
-        "wires": []
-    },
-    {
-        "id": "54f6ee4b045595e9",
-        "type": "comment",
-        "z": "b4d75ba3ddc22023",
-        "name": "WDX Example - Building Lights - Data Light Color Schema Scripts",
-        "info": "\n    ██╗  ██╗ ██████╗ ████████╗███████╗██╗         ██╗     ██╗ ██████╗ ██╗  ██╗████████╗███████╗     ██████╗ ██████╗ ██╗      ██████╗ ██████╗ \n    ██║  ██║██╔═══██╗╚══██╔══╝██╔════╝██║         ██║     ██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝    ██╔════╝██╔═══██╗██║     ██╔═══██╗██╔══██╗\n    ███████║██║   ██║   ██║   █████╗  ██║         ██║     ██║██║  ███╗███████║   ██║   ███████╗    ██║     ██║   ██║██║     ██║   ██║██████╔╝\n    ██╔══██║██║   ██║   ██║   ██╔══╝  ██║         ██║     ██║██║   ██║██╔══██║   ██║   ╚════██║    ██║     ██║   ██║██║     ██║   ██║██╔══██╗\n    ██║  ██║╚██████╔╝   ██║   ███████╗███████╗    ███████╗██║╚██████╔╝██║  ██║   ██║   ███████║    ╚██████╗╚██████╔╝███████╗╚██████╔╝██║  ██║\n    ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚══════╝╚══════╝    ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝     ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝",
-        "x": 270,
-        "y": 1120,
-        "wires": []
-    },
-    {
-        "id": "6528c38d6fb2379c",
-        "type": "array-loop",
-        "z": "b4d75ba3ddc22023",
-        "name": "Loop Floors",
-        "key": "al8a1dd6b709dd8bc5",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "floors",
-        "arrayType": "msg",
-        "x": 230,
-        "y": 620,
-        "wires": [
-            [],
-            [
-                "e67072980c1ed84c"
-            ]
-        ]
-    },
-    {
-        "id": "e67072980c1ed84c",
-        "type": "function",
-        "z": "b4d75ba3ddc22023",
-        "name": "Process Floor",
-        "func": "msg.floor=msg.payload;\nconst newMessage={\n    floor:msg.payload,\n    room:0,\n    floors:msg.floors,\n    rooms:msg.rooms,\n    payload : 0\n};\nreturn newMessage;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 240,
-        "y": 720,
-        "wires": [
-            [
-                "68ea7b3612982371"
-            ]
-        ]
-    },
-    {
-        "id": "8c66447374181503",
-        "type": "comment",
-        "z": "b4d75ba3ddc22023",
-        "name": "Process Floors",
-        "info": "",
-        "x": 120,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "51f127129889e259",
-        "type": "comment",
-        "z": "b4d75ba3ddc22023",
-        "name": "Process Rooms",
-        "info": "",
-        "x": 580,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "68ea7b3612982371",
-        "type": "array-loop",
-        "z": "b4d75ba3ddc22023",
-        "name": "Loop Rooms",
-        "key": "al8a1dd6b709dd8bc5",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "rooms",
-        "arrayType": "msg",
-        "x": 570,
-        "y": 620,
-        "wires": [
-            [
-                "9715e9c0660b8f61"
-            ],
-            [
-                "d43504b7ee080dbb",
-                "5c4afc9b480340df"
-            ]
-        ]
-    },
-    {
-        "id": "d43504b7ee080dbb",
-        "type": "function",
-        "z": "b4d75ba3ddc22023",
-        "name": "Process Room",
-        "func": "msg.room=msg.payload;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 580,
-        "y": 720,
-        "wires": [
-            [
-                "68ea7b3612982371"
-            ]
-        ]
-    },
-    {
-        "id": "9715e9c0660b8f61",
-        "type": "function",
-        "z": "b4d75ba3ddc22023",
-        "name": "Continue floor",
-        "func": "\n\nconst newMessage={\n    floors:msg.floors,\n    rooms:msg.rooms,\n    payload:msg.floor\n};\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 900,
-        "y": 620,
-        "wires": [
-            [
-                "6528c38d6fb2379c"
-            ]
-        ]
-    },
-    {
-        "id": "5c4afc9b480340df",
+        "id": "027e3fa7bed68009",
         "type": "debug",
-        "z": "b4d75ba3ddc22023",
-        "name": "Store Configuration",
+        "z": "d3e890056764bb1e",
+        "g": "9ffbc3b9ee008a9f",
+        "name": "Sucess",
         "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 910,
-        "y": 720,
+        "x": 940,
+        "y": 220,
         "wires": []
+    },
+    {
+        "id": "6d9760225e4e8ea8",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "9ffbc3b9ee008a9f",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "3392dbf14f731c31",
+        "type": "inject",
+        "z": "d3e890056764bb1e",
+        "g": "91e984cc770c72d1",
+        "name": "WDX Example - Trends Save Request",
+        "props": [
+            {
+                "p": "trend",
+                "v": "{\"name\":\"Example Virtual Store Test Variable\",\"dataPoolInterval\":1000,\"active\":false,\"showLines\":true,\"showLabels\":true,\"intervalPicker\":true,\"exportCurrentViewButton\":true,\"exportFullDataButton\":true,\"resetButton\":true,\"legend\":true,\"tooltips\":true,\"extendedTouchFeatures\":true,\"zoom\":true,\"xAxis\":{\"label\":\"Time Series\",\"format\":null,\"defaultFormat\":\"HumanReadable\",\"visible\":true},\"yAxis\":[{\"uuid\":\"ed1c1338-6fbe-4bdd-ad76-853aa951a8a7\",\"name\":\"Value\",\"label\":\"Value\",\"min\":null,\"max\":null,\"position\":\"left\",\"color\":\"#000000\",\"visible\":true}],\"dataSet\":[{\"uuid\":\"0e7e12ef-d9c7-48a9-ae98-f4b33b35d64f\",\"name\":\"test\",\"label\":\"test\",\"dataSchemaPath\":\"Virtual.virtual-store.test\",\"color\":\"#00ff19\",\"yAxis\":\"ed1c1338-6fbe-4bdd-ad76-853aa951a8a7\",\"enabled\":true,\"visible\":true,\"valueSnapshot\":null}],\"uuid\":\"949d9259-8756-45f7-a7b9-cc8e661d2257\"}",
+                "vt": "json"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 230,
+        "y": 560,
+        "wires": [
+            [
+                "7e51fbbd5c2354ec"
+            ]
+        ]
+    },
+    {
+        "id": "cb607a2ca6bb7d82",
+        "type": "comment",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - Detail",
+        "info": "# WDX Example - Trends - Detail",
+        "x": 170,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "61534039cca0fda4",
+        "type": "inject",
+        "z": "d3e890056764bb1e",
+        "g": "f1d9158abd2c0091",
+        "name": "WDX Example - Trends Detail Request",
+        "props": [
+            {
+                "p": "trendUUID",
+                "v": "949d9259-8756-45f7-a7b9-cc8e661d2257",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 230,
+        "y": 860,
+        "wires": [
+            [
+                "57a4afe7ad3b5948"
+            ]
+        ]
+    },
+    {
+        "id": "1035e3d6740fc63e",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "91e984cc770c72d1",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "fadd5aa2f5d87f44",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "91e984cc770c72d1",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "124c9b2119e74045",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "f1d9158abd2c0091",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "d7b5c7853eb5d8bd",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "f1d9158abd2c0091",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "7d1421dd48b3d68b",
+        "type": "wago.wdx.trend.list",
+        "z": "d3e890056764bb1e",
+        "g": "9ffbc3b9ee008a9f",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 610,
+        "y": 260,
+        "wires": [
+            [
+                "027e3fa7bed68009"
+            ],
+            [
+                "6d9760225e4e8ea8"
+            ]
+        ]
+    },
+    {
+        "id": "57a4afe7ad3b5948",
+        "type": "wago.wdx.trend.detail",
+        "z": "d3e890056764bb1e",
+        "g": "f1d9158abd2c0091",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 580,
+        "y": 860,
+        "wires": [
+            [
+                "124c9b2119e74045"
+            ],
+            [
+                "d7b5c7853eb5d8bd"
+            ]
+        ]
+    },
+    {
+        "id": "9a9593ce0eea52b2",
+        "type": "comment",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - Delete",
+        "info": "# WDX Example - Trends - Delete",
+        "x": 170,
+        "y": 2440,
+        "wires": []
+    },
+    {
+        "id": "b74c022951244abb",
+        "type": "inject",
+        "z": "d3e890056764bb1e",
+        "g": "b869f3d54ffe7d99",
+        "name": "WDX Example - Trends Delete Request",
+        "props": [
+            {
+                "p": "trendUUID",
+                "v": "949d9259-8756-45f7-a7b9-cc8e661d2257",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 230,
+        "y": 2560,
+        "wires": [
+            [
+                "60764953622b1287"
+            ]
+        ]
+    },
+    {
+        "id": "68c0244c47a96302",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "b869f3d54ffe7d99",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "3055e06f690d35e9",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "b869f3d54ffe7d99",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 2600,
+        "wires": []
+    },
+    {
+        "id": "60764953622b1287",
+        "type": "wago.wdx.trend.delete",
+        "z": "d3e890056764bb1e",
+        "g": "b869f3d54ffe7d99",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 640,
+        "y": 2560,
+        "wires": [
+            [
+                "68c0244c47a96302"
+            ],
+            [
+                "3055e06f690d35e9"
+            ]
+        ]
+    },
+    {
+        "id": "7e51fbbd5c2354ec",
+        "type": "wago.wdx.trend.save",
+        "z": "d3e890056764bb1e",
+        "g": "91e984cc770c72d1",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "trend": "",
+        "x": 600,
+        "y": 560,
+        "wires": [
+            [
+                "1035e3d6740fc63e"
+            ],
+            [
+                "fadd5aa2f5d87f44"
+            ]
+        ]
+    },
+    {
+        "id": "1f7ec01a5b06462f",
+        "type": "comment",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trend - Monitor",
+        "info": "# WDX Example - Trend - Monitor",
+        "x": 170,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "96d64c72d7261fe1",
+        "type": "inject",
+        "z": "d3e890056764bb1e",
+        "g": "9287544fac84226f",
+        "name": "WDX Example - Trend - Monitor Subscribe Request",
+        "props": [
+            {
+                "p": "trendUUID",
+                "v": "949d9259-8756-45f7-a7b9-cc8e661d2257",
+                "vt": "str"
+            },
+            {
+                "p": "subscribe",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 270,
+        "y": 1160,
+        "wires": [
+            [
+                "b7f033b97fc59b7a"
+            ]
+        ]
+    },
+    {
+        "id": "f9e88d8b51971274",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "9287544fac84226f",
+        "name": "Update",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "8aba618a2df785a4",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "9287544fac84226f",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "a5cee7854871fbcc",
+        "type": "comment",
+        "z": "d3e890056764bb1e",
+        "g": "9287544fac84226f",
+        "name": "WDX Example - Trend - Monitor Subscribe",
+        "info": "# WDX Example - Trend - Monitor Subscribe",
+        "x": 220,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "9ddf992487665758",
+        "type": "comment",
+        "z": "d3e890056764bb1e",
+        "g": "9287544fac84226f",
+        "name": "WDX Example - Trend - Monitor Unubscribe",
+        "info": "# WDX Example - Trend - Monitor Unubscribe",
+        "x": 230,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "e5322cecfd03cbe1",
+        "type": "inject",
+        "z": "d3e890056764bb1e",
+        "g": "9287544fac84226f",
+        "name": "WDX Example - Trend - Monitor Unubscribe Request",
+        "props": [
+            {
+                "p": "path",
+                "v": "949d9259-8756-45f7-a7b9-cc8e661d2257",
+                "vt": "str"
+            },
+            {
+                "p": "subscribe",
+                "v": "false",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 270,
+        "y": 1380,
+        "wires": [
+            [
+                "b7f033b97fc59b7a"
+            ]
+        ]
+    },
+    {
+        "id": "8b9481374ae885ce",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "9287544fac84226f",
+        "name": "Complete",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "39d99221141173bf",
+        "type": "comment",
+        "z": "d3e890056764bb1e",
+        "g": "9287544fac84226f",
+        "name": "WDX Example - Trend - Monitor Subscribe Complete Message",
+        "info": "#WDX Example - Trend - Monitor Subscribe Complete Message",
+        "x": 1220,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "50ef02b57b19ae9a",
+        "type": "comment",
+        "z": "d3e890056764bb1e",
+        "g": "9287544fac84226f",
+        "name": "WDX Example - Trend - Monitor Subscribe Error Message",
+        "info": "# WDX Example - Trend - Monitor Subscribe Error Message",
+        "x": 1210,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "77df0637d33bc05d",
+        "type": "comment",
+        "z": "d3e890056764bb1e",
+        "g": "9287544fac84226f",
+        "name": "WDX Example - Trend - Monitor Subscribe Updates Message",
+        "info": "# WDX Example - Trend - Monitor Subscribe Updates Message",
+        "x": 1220,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "b7f033b97fc59b7a",
+        "type": "wago.wdx.trend.monitor",
+        "z": "d3e890056764bb1e",
+        "g": "9287544fac84226f",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 680,
+        "y": 1280,
+        "wires": [
+            [
+                "f9e88d8b51971274"
+            ],
+            [
+                "8aba618a2df785a4"
+            ],
+            [
+                "8b9481374ae885ce"
+            ]
+        ]
+    },
+    {
+        "id": "9b94aca67e29b99b",
+        "type": "comment",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - Export Image",
+        "info": "# WDX Example - Trends - Export Image",
+        "x": 190,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "f22bee5cc47822f5",
+        "type": "inject",
+        "z": "d3e890056764bb1e",
+        "g": "2889330cea09ea3e",
+        "name": "WDX Example - Trends - Export Image Request",
+        "props": [
+            {
+                "p": "trendUUID",
+                "v": "949d9259-8756-45f7-a7b9-cc8e661d2257",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 260,
+        "y": 1660,
+        "wires": [
+            [
+                "60e3f0cbe1b4d44b"
+            ]
+        ]
+    },
+    {
+        "id": "814af64b908fcad1",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "2889330cea09ea3e",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "e96a7a470d593763",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "2889330cea09ea3e",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "60e3f0cbe1b4d44b",
+        "type": "wago.wdx.trend.export-image",
+        "z": "d3e890056764bb1e",
+        "g": "2889330cea09ea3e",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 660,
+        "y": 1660,
+        "wires": [
+            [
+                "814af64b908fcad1"
+            ],
+            [
+                "e96a7a470d593763"
+            ]
+        ]
+    },
+    {
+        "id": "566a1fdf32eb4087",
+        "type": "comment",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - Export CSV",
+        "info": "# WDX Example - Trends - Export CSV",
+        "x": 190,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "8ded43cd6a0df788",
+        "type": "inject",
+        "z": "d3e890056764bb1e",
+        "g": "5543a005770d01e1",
+        "name": "WDX Example - Trends - Export SQLite Request",
+        "props": [
+            {
+                "p": "trendUUID",
+                "v": "949d9259-8756-45f7-a7b9-cc8e661d2257",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 260,
+        "y": 1960,
+        "wires": [
+            [
+                "276f35b96c9c7c9e"
+            ]
+        ]
+    },
+    {
+        "id": "eda39d581d0b71d5",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "5543a005770d01e1",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "f635ec242364c141",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "5543a005770d01e1",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "0bac1e27e1361207",
+        "type": "comment",
+        "z": "d3e890056764bb1e",
+        "name": "WDX Example - Trends - Export SQLite",
+        "info": "# WDX Example - Trends - Export SQLite",
+        "x": 190,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "423fe36a04b9cbc7",
+        "type": "inject",
+        "z": "d3e890056764bb1e",
+        "g": "95f5b28e5f67f8c5",
+        "name": "WDX Example - Trends - Export CSV Request",
+        "props": [
+            {
+                "p": "trendUUID",
+                "v": "949d9259-8756-45f7-a7b9-cc8e661d2257",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 250,
+        "y": 2260,
+        "wires": [
+            [
+                "5be3e4898a8739fa"
+            ]
+        ]
+    },
+    {
+        "id": "ab5f1b9203856af8",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "95f5b28e5f67f8c5",
+        "name": "Sucess",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "a20ea3b188b3d9b5",
+        "type": "debug",
+        "z": "d3e890056764bb1e",
+        "g": "95f5b28e5f67f8c5",
+        "name": "Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "5be3e4898a8739fa",
+        "type": "wago.wdx.trend.export-csv",
+        "z": "d3e890056764bb1e",
+        "g": "95f5b28e5f67f8c5",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 660,
+        "y": 2260,
+        "wires": [
+            [
+                "ab5f1b9203856af8"
+            ],
+            [
+                "a20ea3b188b3d9b5"
+            ]
+        ]
+    },
+    {
+        "id": "276f35b96c9c7c9e",
+        "type": "wago.wdx.trend.export-sqlite",
+        "z": "d3e890056764bb1e",
+        "g": "5543a005770d01e1",
+        "name": "",
+        "client": "3949037aa7f8a94a",
+        "x": 660,
+        "y": 1960,
+        "wires": [
+            [
+                "eda39d581d0b71d5"
+            ],
+            [
+                "f635ec242364c141"
+            ]
+        ]
+    },
+    {
+        "id": "3949037aa7f8a94a",
+        "type": "wago.wdx.web-socket",
+        "url": "ws://localhost:82"
     }
 ]
