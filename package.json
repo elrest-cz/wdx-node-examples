@@ -26,7 +26,7 @@
 			"email": "slavomir.sidor@elrest.cz"
 		}
 	],
-	"version": "10.1.1",
+	"version": "10.1.2",
 	"scripts": {
 		"publish:patch": "npm version patch && npm publish --patch --registry $NPM_REGISTRY_PUBLISH",
 		"publish:minor": "npm version minor && npm publish --minor --registry $NPM_REGISTRY_PUBLISH",
@@ -43,6 +43,5 @@
 		"typedoc": "^0.25.7",
 		"typedoc-plugin-markdown": "^3.17.1"
 	},
-	"dependencies": {
-	}
+	"dependencies": {}
 }
